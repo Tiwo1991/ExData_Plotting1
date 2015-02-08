@@ -17,7 +17,7 @@ subMetering3 <- as.numeric(dataSubset$Sub_metering_3)
 
 png("plot3.png", width=480, height=480)
 plot(dateTime, subMetering1, type = "l", xlab = "",
-        ylab = "Energy Submetering")
+        ylab = "Energy sub metering")
 lines(dateTime, subMetering2, type = "l", col = "red")
 lines(dateTime, subMetering3, type = "l", col = "blue")
 
